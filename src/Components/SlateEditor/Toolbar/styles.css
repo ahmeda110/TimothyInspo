@@ -1,0 +1,25 @@
+.toolbar{
+    width: 650px;
+    border-radius: 10px;
+background: #ffffff;
+box-shadow:  -8px 8px 13px #ededed,
+             8px -8px 13px #ffffff;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    padding: 15px 10px;
+    row-gap: 5px;
+
+  top: 0;
+  z-index: 2;
+}
+.toolbar-grp>*{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.toolbar-grp{
+    margin:0 10px;
+}
+

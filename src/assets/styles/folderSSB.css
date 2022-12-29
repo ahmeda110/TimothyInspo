@@ -1,0 +1,62 @@
+.d-tree-container {
+    list-style: none;
+    padding-left: 0;
+    font: 12px !important;
+    color: white;
+  }
+  
+  .d-tree-node {
+    padding: 0.25rem 1.75rem;
+    font-size: 15px;
+  }
+  
+  .d-tree-toggler.active {
+    transform: rotate(45deg);
+  }
+
+  .child {
+    color: red !important;
+  }
+
+  .dropI {
+    position: absolute;
+    left: 45px;
+    top: 23px;
+    width: 12px;
+  }
+
+  .dropIU {
+    position: absolute;
+    left: 45px;
+    top: 24.5px;
+    width: 12px;
+  }
+
+  .folderI {
+    width: 18px;
+    position: absolute;
+    left: 65px;
+    top: 20px;
+  }
+
+  .boardI {
+    position: absolute;
+    left: 117.5px;
+    top: 1px;
+  }
+
+  .settings {
+    position: absolute;
+    right: -25px;
+    top: 2.5px;
+  }
+
+  .unionI {
+    position: absolute;
+    right: 40px;
+    top: 57.5px;
+    opacity: 90%;
+    z-index: 99999999999;
+  }
+
+ 

@@ -1,0 +1,107 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.account {
+  position: relative;
+  top: 200px;
+  margin-top: 200px !important;
+}
+
+.logoI {
+  position: relative;
+  left: -12.5px;
+}
+
+.libraryI {
+  position: absolute;
+  width: 35px;
+  left: -7.5px;
+  top: -5px;
+  image-rendering: high-quality;
+}
+
+.search {
+  height: 18px;
+  position: relative;
+  top: -2.5px;
+}
+.searchText {
+  position: relative;
+  left: 10.5px;
+  top: -4.75px;
+  font-size: 16px;
+}
+
+.profileI {
+  position: absolute;
+  left: -12.5px;
+  width: 24px;
+  color: white !important;
+}
+
+.libraryT {
+  font-size: 30px;
+  margin-top: -20px;
+}
+
+.selectT {
+  width: 315px !important;
+}
+
+.searchI {
+  border-right: 0;
+  border-left: 0;
+
+}
+
+*:focus {
+  outline: none;
+}
+
+.searchR {
+  display: flex;
+  flex-grow: 1;
+  margin: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchR:hover {
+  background-color: rgb(233, 255, 229);
+}

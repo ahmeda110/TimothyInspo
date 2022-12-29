@@ -1,0 +1,16 @@
+.css-1p3m7a8-multiValue {
+    background: #081A51 !important;
+    border-radius: 2.5px !important;
+    color: white !important;
+}
+
+.css-wsp0cs-MultiValueGeneric {
+    color: white !important;
+    font-weight: 100 !important;
+}
+
+
+
+input[id^="react-select"] {
+    display: none !important;
+}
